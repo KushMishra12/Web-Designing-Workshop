@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SportsKart - E-Commerce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 220px;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .price {
+            color: green;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        button {
+            background: #0d6efd;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background: #084298;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SportsKart</h1>
+    <p>Your One Stop Sports Shop</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Cricket</a>
+    <a href="#">Badminton</a>
+    <a href="#">Football</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/35981347/pexels-photo-35981347.jpeg" alt="Cricket Bat">
+        <h3>Cricket Bat (English Willow)</h3>
+        <p class="price">₹4,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/13116204/pexels-photo-13116204.jpeg" alt="Badminton Racket">
+        <h3>Badminton Racket (Yonex Style)</h3>
+        <p class="price">₹2,199</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg" alt="Football">
+        <h3>Football (FIFA Quality)</h3>
+        <p class="price">₹1,299</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/30401131/pexels-photo-30401131.jpeg" alt="Cricket Gloves">
+        <h3>Cricket Batting Gloves</h3>
+        <p class="price">₹899</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg" alt="Tennis Racket">
+        <h3>Tennis Racket</h3>
+        <p class="price">₹3,499</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 SportsKart | Designed for Practice
+</footer>
+
+</body>
+</html>
